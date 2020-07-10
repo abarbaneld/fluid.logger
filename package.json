@@ -1,0 +1,28 @@
+{
+  "name": "fluid.logger",
+  "version": "1.0.0",
+  "description": "Fluid Logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abarbaneld/fluid.logger.git"
+  },
+  "keywords": [
+    "logger",
+    "javascript"
+  ],
+  "author": "Dan Abarbanel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abarbaneld/fluid.logger/issues"
+  },
+  "homepage": "https://github.com/abarbaneld/fluid.logger#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "config": "^3.3.1",
+    "moment": "^2.27.0"
+  }
+}
