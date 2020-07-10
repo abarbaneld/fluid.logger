@@ -15,8 +15,11 @@ const levels = {
     "WARN" : ['ERROR', 'WARN'],
     "ERROR": ['ERROR']
 };
-const logLevel = config.has('server.logLevel') ? config.get('server.logLevel') : "DEBUG";
-module.exports = { 
+let logLevel = config.has('server.logLevel') ? config.get('server.logLevel') : "DEBUG";
+module.exports = {
+    init:function(logLvl = 'DEBUG'){
+        logLevel = logLvl;
+    },
     log: function () { 
         Array.prototype.unshift.call(arguments, chalk.white('[' + moment().format("YYYY-MM-DD HH:mm:ss") + '] log:')); 
         console.log.apply(this, arguments); 
