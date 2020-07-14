@@ -1,10 +1,18 @@
 {
-  "name": "fluid.logger",
+  "name": "@fluid/logger",
   "version": "1.0.0",
   "description": "Fluid Logger",
   "main": "index.js",
   "scripts": {
-    "test": "jest --collectCoverage"
+    "test": "jest --collectCoverage",
+		"clean": "rm -rf node_modules package-lock.json && npm install",
+		"update": "rm -f package-lock.json && npm update",
+		"git-set-upstream": "git remote add upstream git@github.com:abarbaneld/fluid.logger.git && git fetch upstream",
+		"git-pull": "git pull --recursive",
+		"git-ignore-reset": "git rm -r --cached . && git add . && git commit -m \"[Fix] Removing all files in .gitignore\"",
+		"npm-publish-master": "git checkout master && npm publish",
+		"npm-publish-beta": "git checkout beta && npm publish --tag beta",
+		"npm-publish-nightly": "git checkout nightly && npm publish --tag nightly"
   },
   "repository": {
     "type": "git",
