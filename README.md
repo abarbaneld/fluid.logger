@@ -1,4 +1,4 @@
-[![fluid.logger for Node.js: a simple logger for your application]](https://www.npmjs.com/package/@fluid/logger)
+[![fluid.logger for Node.js: a simple logger for your application]](https://www.npmjs.com/package/@fluidt/logger)
 
 # 🦒 Simple Logger for Node.js
 
@@ -22,16 +22,16 @@
 * [✔️] The best alternative to the console.log statement
 
 ## 🚀 Installation
-1. In your node project run: `npm install @fluid/logger --save`
+1. In your node project run: `npm install @fluidt/logger --save`
 2. Usage:
 ```javascript
-const logger = require("@fluid/logger");
+const logger = require("@fluidt/logger");
 logger.info("message");
 ```
 
 You can set `envs` to control logging level `export LOG_LEVEL=DEBUG` example:
 ```javascript
-const logger = require("@fluid/logger");
+const logger = require("@fluidt/logger");
 
 logger.info("message");
 ```
@@ -58,4 +58,4 @@ See folder `tests`, run with `node run test`. Below is available a description o
 ## 💫 License
 * Code and Contributions have **MIT License**
 
-###### CopyRight (c) 2020 [Dan Abarbanel](https://fluidt.dev) <[contact@fluidt.dev](mailto:contact@fluidt,.dev)>
+###### CopyRight (c) 2020 [Dan Abarbanel](https://fluidt.dev) <[contact@fluidt.dev](mailto:contact@fluidt.dev)>

@@ -1,5 +1,5 @@
 {
-  "name": "@fluid/logger",
+  "name": "@fluidt/logger",
   "version": "1.0.0",
   "description": "Fluid Logger",
   "main": "index.js",

@@ -12,7 +12,7 @@
 #
 
 ############################
-# sails / node.js / npm
+# node.js / npm
 ############################
 node_modules
 .tmp
@@ -21,6 +21,7 @@ package-lock.json
 package-lock.*
 .waterline
 .node_history
+coverage
 
 ############################
 # editor & OS files
